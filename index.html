@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang= en>
+
+ <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Registration Form</title>
+    </head>
+
+    <body>
+
+        <div class="formClass">
+        <h1 style=text-align:center>FORMULIR REGISTRASI PESERTA</h1>
+        <h2 style=text-align:center>UPTD Puskemas Sitopeng<br>KOTA Cirebon</h2>
+
+        <form onsubmit="submit_form()">
+
+            
+            
+            <table>
+                <td>
+                    <H3>PESERTA</H3>
+                </td>
+                <tr>
+                    <td>
+                        Nama Lengkap & Gelar
+                    </td>
+                    <td>
+                        <input id="nama" type="text" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Asal Instansi
+                    </td>
+                    <td>
+                        <input id="Asal" type="text" required><br>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Alamat
+                    </td>
+                    <td>
+                        <textarea rows="2" col="20" required></textarea>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        Kode Pos
+                    </td>
+                    <td>
+                        <input type="number" id="Kode Pos" name="KP" min="10000" max="99999"/>
+                                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        Provinsi
+                    </td>
+                    <td>
+                        <input type="text" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Telepon/Handphone
+                    </td>
+                    <td>
+                        <input type="tel" id="phone" name="phone" placeholder="08xxxxxxxx" pattern=".{10,}" title="10 or more number"required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email
+                    </td>
+                    <td>
+                        <input type="text" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Sponsor
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Nama Perusahaan</li>
+                            <li>Alamat Perusahan</li>
+                            <li>Nama Kontak Personal</li>
+                            <li>Telp.Personal</li>
+                            <li>Email Perusahan</li>
+                        </ul>
+                    </td>
+                    
+                    <td>
+                        <input type="text"><br>
+                        <input type="text"><br>
+                        <input type="text"><br>
+                        <input type="tel" id="phone" name="phone" placeholder="08xxxxxxxx" pattern=".{10,}" title="10 or more number"><br>
+                        <input type="text"><br>
+                        
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        Bukti Pembayaran
+                    </td>
+                    <td>
+                        <input type="file" placeholder="upload file" accept="image/png, image/jpeg, image/jpg" required><br>
+                    </td>
+                </tr>
+                
+                
+                    
+            </table>
+            <div class="button"><br>
+                <input type="submit" value="Submit" onclick="submit_form()">
+            </div>
+            <script src="main.js"></script>
+            
+            </form>
+        </body>
+         
+        <body> 
+            <p>Kontribusi peserta Rp.2.500.000,-(Dua Juta Lima Ratus Ribu Rupiah Belum Termasuk penginapan dan akomodasi) 
+            </p>
+            <p>    
+                Konfirmasi Kepesertaan:
+                <ul>
+                    <li> Sebelum 15 Januari 2012 : Rp.2.500.000,-</li>
+                    <li> Sesudah 15 Januari 2012 : Rp.2.750.000,-</li>
+                    <li> On Site&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Rp.3.000.000,-</li>
+                </ul>
+            </p>
+            <p>
+                Pembatalan Pendaftaran:
+                <ul>
+                    <li> Sebelum H-5 uang dikembalikan 50%</li>
+                    <li> Sesudah H-5 uang tidak dapat dikembalikan</li>
+                
+            </p>
+            <p>
+                Akomodasi Penginapan peserta,harga kamar kelas standar berkisar antara Rp. 250.000 - Rp. 300.000
+            </p>
+
+            <p>
+                Pendaftaran via transfer Bank ke :
+            </p>
+            <p>
+                Nama Bank : Bank BCA KCU Cirebon
+            </p>
+            <p>
+                No Rekening : 1341015478
+            </p>
+            <p>
+                Atas Nama : Junaedi S.Kep
+            </p>
+            
+        </body>
+
+
+               
+</html>
